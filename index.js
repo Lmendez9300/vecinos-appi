@@ -5,7 +5,7 @@ const PORT= process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-//require('./database/index.js');
+
 
 // Database & Models
 require('./database/index.js');
